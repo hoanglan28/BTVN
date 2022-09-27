@@ -1,0 +1,47 @@
+.container {
+    width: 600px;
+    margin: 100px;
+    border: 1px solid silver;
+    border-radius: 40px;
+}
+
+.picture {
+    height: 300px;
+  background-image: url(https://hoaonline247.com/photos/view/photos/larges//5f0c69d562fc53c2268b4567.cl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.content {
+    padding: 20px;
+    color:aqua;
+    justify-content: center;
+}
+
+.content .time{
+    font-size: 20px;
+    color: cadetblue;
+    text-align: center;
+}
+
+.content .name{
+    font-size: 80px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.content .content1{
+    font-size: 40px;
+    color: beige;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    color: blueviolet;
+}
+
